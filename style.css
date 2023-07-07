@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+ 
+.wrap{
+    width: 100%;
+    min-height:100vh ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.exclisuveOffersPage{
+    width: 100%;
+    min-width: 100vh;
+    background-color: #FFF1ED;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+
+}
+
+.PlaceItem{
+display: flex;
+flex-direction: column;
+}
+
+.cityPhoto{
+    width: 300px;
+    height: 300px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 20px;
+}
+
+.PriceItem{
+    width: 100px;
+    height: 100px;
+    background-color: #F07c52;
+    border-radius: 50%;
+    color: #FFF;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    color: #FFF;
+    font-family: 'Lexend Zetta';
+    font-size: 24px;
+}
+
+
+.romePhoto{
+    background-image: url(./img/Bitmap1.png);
+    background-size: cover;
+    background-position: center;
+}
+.parisPhoto{
+    background-image: url(./img/Bitmap2.png);
+    background-size: cover;
+    background-position: center;
+}
+.newYorkPhoto{
+    background-image: url(./img/Bitmap3.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.placesCintainer h3{
+    margin-top: 20px;
+    font-family: 'lexend Zetta';
+    font-size: 24px;
+}
+.city{
+    color: #686665;
+    font-size: 14px;
+    margin-top: 10px;
+}
